@@ -82,3 +82,16 @@ theme = 'Augustus'
 		Description = "教材無期限閱覽"
 	[[params.pricing.Features]]
 		Description = "加入學員專屬社群，即時交流解題"
+
+[[params.pricing]]
+	PricingTitle = "轉職課程"
+	PricingRate = "軟體測試實務"
+	ButtonCaption = "馬上報名"
+	[[params.pricing.Features]]
+		Description = "自動化測試與測試驅動開發(TDD)"
+	[[params.pricing.Features]]
+		Description = "掌握Pytest框架"
+	[[params.pricing.Features]]
+		Description = "教材無期限閱覽"
+	[[params.pricing.Features]]
+		Description = "加入學員專屬社群，即時交流解題"
