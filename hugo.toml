@@ -30,7 +30,7 @@ theme = 'Augustus'
 [params.content]
 	LeadTitle = "程式設計 家教課程"
 	LeadDescription = "零基礎開始學習寫程式，手把手教學，從認識網頁架構到完成簡單專案。"
-	ButtonCaption = "課程方案"
+	ButtonCaption = "課 程 方 案"
 	ButtonURL = "#pricing-section"
 
 ################### 最多四項 Feature Columns ####################
@@ -60,7 +60,7 @@ theme = 'Augustus'
 [[params.pricing]]
 	PricingTitle = "基礎課程"
 	PricingRate = "程式設計入門"	
-	ButtonCaption = "🔥 馬上報名"
+	ButtonCaption = "現 在 報 名"
 	[[params.pricing.Features]]
 		Description = "Python 語言開發實戰案例"
 	[[params.pricing.Features]]
@@ -71,7 +71,7 @@ theme = 'Augustus'
 [[params.pricing]]
 	PricingTitle = "轉職課程"
 	PricingRate = "建立後端技能"
-	ButtonCaption = "✨ 馬上報名"
+	ButtonCaption = "✨ 現 在 報 名"
 	[[params.pricing.Features]]
 		Description = "Go 簡易 HTTP 伺服器"
 	[[params.pricing.Features]]
@@ -84,7 +84,7 @@ theme = 'Augustus'
 [[params.pricing]]
 	PricingTitle = "實務課程"
 	PricingRate = "軟體測試實務"
-	ButtonCaption = "馬上報名"
+	ButtonCaption = "🔥 現 在 報 名"
 	[[params.pricing.Features]]
 		Description = "自動化測試與測試驅動開發(TDD)"
 	[[params.pricing.Features]]

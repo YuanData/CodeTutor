@@ -1739,7 +1739,7 @@ main {
     border: 1px solid #E2E8ED;
     border-radius: 4px;
 }
-/* 預約按鈕 */
+/* 送出按鈕 */
 .button-wrap {
     width: 50%;
     margin: 0 auto; /* 添加這一行以使容器居中 */
