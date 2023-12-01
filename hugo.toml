@@ -75,14 +75,14 @@ theme = 'Augustus'
 	[[params.pricing.Features]]
 		Description = "Go 簡易 HTTP 伺服器"
 	[[params.pricing.Features]]
-		Description = "Go 專案持續整合測試部署"
+		Description = "Go 專案CI/CD(持續集成/持續部署)"
 	[[params.pricing.Features]]
 		Description = "教材無期限閱覽"
 	[[params.pricing.Features]]
 		Description = "加入學員專屬社群，即時交流解題"
 
 [[params.pricing]]
-	PricingTitle = "轉職課程"
+	PricingTitle = "實務課程"
 	PricingRate = "軟體測試實務"
 	ButtonCaption = "馬上報名"
 	[[params.pricing.Features]]
