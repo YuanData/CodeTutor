@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://yuandata.github.io/CodeTutor/'
 languageCode = 'en-us'
 title = 'Code Tutor'
 theme = 'Augustus'
