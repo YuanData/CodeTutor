@@ -36,23 +36,23 @@ theme = 'Augustus'
 ################### 最多四項 Feature Columns ####################
 
 [[params.feature]]
-	FeatureTitle = "深入淺出程式設計"
+	FeatureTitle = "深入淺出 程式設計"
 	FeatureDescription = "透過系統學習與實際項目，來探索自己對程式設計的興趣的學習者設計。透過從基礎開始，逐步建立知識結構。"
 	FeatureImage = "images/feature-1.png"
 	
 [[params.feature]]
-	FeatureTitle = "數位產業轉職指引"
+	FeatureTitle = "軟體產業 轉職指引"
 	FeatureDescription = "透過最新技術的學習和技能提升，幫助增強職場競爭力，從而實現更高薪、更時間自主的工作機會。"
 	FeatureImage = "images/feature-2.png"
 
 [[params.feature]]
-	FeatureTitle = "量身打造實踐計劃"
+	FeatureTitle = "量身打造 實踐計劃"
 	FeatureDescription = "逐堂學習進度和活動，幫助有效地吸收知識並扎實進行實作，打下堅實的基礎，提升即戰力。"
 	FeatureImage = "images/feature-3.png"
 	
 [[params.feature]]
-	FeatureTitle = "自學能力訓練"
-	FeatureDescription = "深入淺出導覽程式語言、系統概論和演算法。培養邏輯思維和自學能力，理解程式設計背後的思考邏輯，達成學以致用。"
+	FeatureTitle = "自學能力 領航培訓"
+	FeatureDescription = "導覽程式語言、系統概論和演算法。培養邏輯思維和自學能力，理解程式設計背後的思考邏輯，達成學以致用。"
 	FeatureImage = "images/feature-4.png"
 	
 ################### 最多三項 Pricing Columns ####################
