@@ -4,7 +4,7 @@ title = 'Code Tutor'
 theme = 'Augustus'
 
 [params]
-	dateFormat = "Nov 11, 2023" 
+	dateFormat = "Oct 11, 2023" 
 	
 [menu]
 	[[menu.main]]
