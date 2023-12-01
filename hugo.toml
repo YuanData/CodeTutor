@@ -22,11 +22,6 @@ theme = 'Augustus'
 		URL = "#"
 		weight = 3
 		
-[params.social]
-	PythonURL = "#"
-	GitHubURL = "#"
-	GitLabURL = "#"
-		
 [params.content]
 	LeadTitle = "程式設計 家教課程"
 	LeadDescription = "零基礎開始學習寫程式，手把手教學，從認識網頁架構到完成簡單專案。"
