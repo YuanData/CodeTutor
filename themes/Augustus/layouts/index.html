@@ -61,7 +61,7 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta is-revealing">
-                                        <a class="button button-primary button-shadow button-block" href="#">{{ .ButtonCaption }}</a>
+                                        <a class="button button-primary button-shadow button-block" href="#contact-section">{{ .ButtonCaption }}</a>
                                     </div>
                                 </div>
                             </div> 
@@ -70,4 +70,36 @@
                     </div>
 				</div>
 			</section>
+			<section class="contact section" id="contact-section">
+				<div class="section-square"></div>
+				<div class="container">
+                    <div class="section-inner has-top-divider">
+                    <h2 class="section-title mt-0 text-center">預約報名</h2>
+                    <!-- 填資料 始 -->
+                    <div class="contact-form" style="padding: 16px;">
+                        <div class="field-wrap">
+                            <label class="field-label">名稱<span class="label-required"> (必填)</span></label>
+                            <input type="text" class="field" required aria-required="true">
+                        </div>
+                        <div class="field-wrap">
+                            <label class="field-label">電子郵件<span class="label-required"> (必填)</span></label>
+                            <input type="email" class="field" required aria-required="true">
+                        </div>
+                        <div class="field-wrap">
+                            <label class="field-label">手機</label>
+                            <input type="tel" class="field">
+                        </div>                        
+                        <div class="field-wrap">
+                            <label class="field-label">備註</label>
+                            <textarea rows="4" class="field"></textarea>
+                        </div>
+                        <div class="button-wrap">                            
+                            <a class="button button-primary button-shadow button-block" href="javascript:void(0)">預 約</a>
+                        </div>
+                    </div>
+                    <!-- 填資料 終 -->
+                    </div>
+				</div>
+			</section>
+
 {{ end }}

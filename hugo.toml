@@ -67,8 +67,6 @@ theme = 'Augustus'
 		Description = "數據結構與LeetCode解題"
 	[[params.pricing.Features]]
 		Description = "教材無期限閱覽"
-	[[params.pricing.Features]]
-		Description = "加入學員專屬社群，即時交流解題"	
 
 [[params.pricing]]
 	PricingTitle = "轉職課程"

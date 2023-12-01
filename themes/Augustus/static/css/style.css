@@ -1711,3 +1711,36 @@ main {
         margin-bottom: 0
     }
 }
+
+/* 填資料 */
+.contact-form .field-wrap {
+    margin-bottom: 16px;
+}
+
+.contact-form .field-label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form .label-required {
+    color: gray;
+}
+
+.contact-form .field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #E2E8ED;
+    border-radius: 4px;
+}
+
+.button-wrap {
+    width: 50%;
+    margin: 0 auto; /* 添加這一行以使容器居中 */
+    text-align: center; /* 確保內部元素（如按鈕）居中 */
+}
+
+.button-wrap .button {
+    display: inline-block; /* 確保按鈕不會擴展到整個容器的寬度 */
+    width: 100%; /* 按鈕寬度將填滿其容器的寬度，即 50% 的父容器寬度 */
+}
+
