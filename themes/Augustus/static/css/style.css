@@ -1713,6 +1713,12 @@ main {
 }
 
 /* 填資料 */
+.contact-form {
+    width: 60%;
+    margin: 0 auto; /* 添加這一行以使容器居中 */
+    text-align: center; /* 確保內部元素（如按鈕）居中 */
+}
+
 .contact-form .field-wrap {
     margin-bottom: 16px;
 }
@@ -1720,6 +1726,7 @@ main {
 .contact-form .field-label {
     display: block;
     margin-bottom: 8px;
+    text-align: left;
 }
 
 .contact-form .label-required {
@@ -1732,7 +1739,7 @@ main {
     border: 1px solid #E2E8ED;
     border-radius: 4px;
 }
-
+/* 預約按鈕 */
 .button-wrap {
     width: 50%;
     margin: 0 auto; /* 添加這一行以使容器居中 */
