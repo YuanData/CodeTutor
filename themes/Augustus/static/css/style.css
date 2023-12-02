@@ -1751,6 +1751,26 @@ main {
     width: 100%; /* 按鈕寬度將填滿其容器的寬度，即 50% 的父容器寬度 */
 }
 
+/* 禁用按钮样式 */
+.button-disabled {
+    background-color: #ccc; /* 灰色背景 */
+    color: #666; /* 暗色文字 */
+    cursor: not-allowed; /* 不允许的光标样式 */
+    border: 1px solid #999; /* 边框样式 */
+}
+
+/* 提示信息样式 */
+.message-success {
+    color: #28a745; /* 成功消息的绿色 */
+    font-size: 14px; /* 字体大小 */
+    margin-top: 10px; /* 上边距 */
+    padding: 5px; /* 内填充 */
+    border: 1px solid #28a745; /* 绿色边框 */
+    border-radius: 4px; /* 边框圆角 */
+    background-color: #e6f9f0; /* 轻微的绿色背景 */
+    display: inline-block; /* 使其成为内联块元素 */
+}
+
 /* 講師介紹 雙欄 */
 .lecturer {
     display: flex;
