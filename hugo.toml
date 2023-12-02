@@ -8,18 +8,18 @@ theme = 'Augustus'
 	
 [menu]
 	[[menu.main]]
-		Name = "Contact"
+		Name = "Home"
 		URL = "#"
 		weight = 1
 	
 	[[menu.main]]
-		Name = "About us"
-		URL = "#"
+		Name = "About"
+		URL = "#four-features"
 		weight = 2
 		
 	[[menu.main]]
-		Name = "Support"
-		URL = "#"
+		Name = "Plans"
+		URL = "#pricing-section"
 		weight = 3
 		
 [params.content]
