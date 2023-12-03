@@ -55,7 +55,7 @@ theme = 'Augustus'
 [[params.pricing]]
 	PricingTitle = "基礎課程"
 	PricingRate = "程式設計入門"	
-	ButtonCaption = "現 在 報 名"
+	ButtonCaption = "立 即 參 與"
 	[[params.pricing.Features]]
 		Description = "Python 語言開發實戰案例"
 	[[params.pricing.Features]]
@@ -66,7 +66,7 @@ theme = 'Augustus'
 [[params.pricing]]
 	PricingTitle = "轉職課程"
 	PricingRate = "建立後端技能"
-	ButtonCaption = "✨ 現 在 報 名"
+	ButtonCaption = "✨ 立 即 參 與"
 	[[params.pricing.Features]]
 		Description = "Go 簡易 HTTP 伺服器"
 	[[params.pricing.Features]]
@@ -79,7 +79,7 @@ theme = 'Augustus'
 [[params.pricing]]
 	PricingTitle = "實務課程"
 	PricingRate = "軟體測試實務"
-	ButtonCaption = "🔥 現 在 報 名"
+	ButtonCaption = "🔥 立 即 參 與"
 	[[params.pricing.Features]]
 		Description = "自動化測試與測試驅動開發(TDD)"
 	[[params.pricing.Features]]
