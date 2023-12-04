@@ -11,7 +11,9 @@
 							</div>
 							{{ partial "nav.html" . }}
 							{{ partial "social.html" . }}
-							<div class="footer-copyright">&copy; {{ now.Format "2006"}} {{ .Site.Params.authorName | markdownify }}All rights reserved</div>
+							<div class="footer-copyright">&copy; {{ now.Format "2006"}} {{ .Site.Params.authorName | markdownify }}All rights reserved.&nbsp;
+							<p id="hitCounter"></p></div>
+							<script>fetch('https://script.google.com/macros/s/AKfycbwjK27Ffh80H015YaMheExmmdfshFK1tmtz-H_fbL-jdG0TZUhlz9vv3m6Hnp8cz2QH0w/exec').then(r => r.text()).then(d => hitCounter.textContent = d);</script>
 						</div>
 					</div>
 				</footer>
