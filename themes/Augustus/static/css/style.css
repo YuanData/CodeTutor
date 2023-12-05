@@ -1784,8 +1784,8 @@ main {
     display: block;
     margin-left: auto;
     margin-right: 15%; /* 將圖片與右邊界保持一定%的距離 */
-    margin-top: 20%; /* 將圖片在垂直方向上下移動 */
-    transform: rotate(8deg); /* 將圖片旋轉15度 */
+    margin-top: 15%; /* 將圖片在垂直方向上下移動 */
+    transform: rotate(2deg); /* 將圖片旋轉角度 */
   }
 
   .right-column {
