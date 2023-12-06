@@ -138,23 +138,7 @@
                                 <button type="submit" id="submit-button" class="button button-primary button-shadow button-block">提 交</button>
                             </div>
                         </form>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById('myForm').addEventListener('submit', function(event) {
-            event.preventDefault();
 
-            var formData = new FormData(this);
-
-            fetch('https://script.google.com/macros/s/AKfycbw65Zqc0IoCZvignzZmdTQxWNRd1dB81UdqWhX4j6GGwVbbpKZ05JvudXnX_cmT8VK5/exec', {
-                method: 'POST',
-                body: formData
-            })
-            .catch(function(error) {
-                disableSubmitButton();
-            });
-        });
-    });
-</script>
                     </div>
                     <!-- 填資料 終 -->
                     </div>
