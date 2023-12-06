@@ -108,7 +108,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests/test/test_contact.py
+          pytest -v tests/test/test_contact.py
 
   deploy:
     environment:
