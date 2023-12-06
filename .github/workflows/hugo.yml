@@ -90,6 +90,11 @@ jobs:
       - name: Set up Chrome WebDriver
         uses: browser-actions/setup-chrome@v1.1.0
 
+      - name: Start Hugo server
+        run: hugo server &
+        env:
+          HUGO_VERSION: 0.114.0
+
       - name: Run tests
         run: |
           pytest tests/test/test_contact.py
