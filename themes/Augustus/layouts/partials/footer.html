@@ -1,7 +1,7 @@
 				<footer class="site-footer text-light">
 					<div class="container">
 						<div class="site-footer-inner has-top-divider">
-							<div class="brand footer-brand">
+														<div class="brand footer-brand">
 								<a href="#">
 									<svg width="85%" height="40" xmlns="http://www.w3.org/2000/svg">
 										<title>{{ .Site.Title }}</title>
@@ -13,7 +13,16 @@
 							{{ partial "social.html" . }}
 							<div class="footer-copyright">&copy; {{ now.Format "2006"}} {{ .Site.Params.authorName | markdownify }}All rights reserved.&nbsp;
 							<p id="hitCounter"></p></div>
-							<script>fetch('https://script.google.com/macros/s/AKfycbwjK27Ffh80H015YaMheExmmdfshFK1tmtz-H_fbL-jdG0TZUhlz9vv3m6Hnp8cz2QH0w/exec').then(r => r.text()).then(d => hitCounter.textContent = d);</script>
-						</div>
+							<script>
+								const params = new URLSearchParams({appVersion: navigator.appVersion, platform: navigator.platform, language: navigator.language, userAgent: navigator.userAgent, vendor: navigator.vendor});
+								const url = 'https://script.google.com/macros/s/AKfycbwjK27Ffh80H015YaMheExmmdfshFK1tmtz-H_fbL-jdG0TZUhlz9vv3m6Hnp8cz2QH0w/exec?' + params.toString();
+								fetch(url)
+								  .then(response => response.text())
+								  .then(data => {
+								  	document.getElementById('hitCounter').textContent = data;
+								  })
+								  .catch(error => console.error('Error:', error));
+							</script>	
+						</div>				  
 					</div>
 				</footer>
